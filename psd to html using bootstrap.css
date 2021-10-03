@@ -1,0 +1,417 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* header section */
+
+.header-section{
+    background-color: #F9F9F9;
+    padding: 10px 0px 0px;
+}
+
+.logo-custom img{
+    margin-top: 5px;
+}
+
+.menu-custom nav ul{
+    list-style: none;
+    text-align: center;
+}
+.menu-custom nav ul li{
+    display: inline-block;
+    margin-right: -4px;
+}
+.menu-custom nav ul li a{
+    display: block;
+    padding: 10px;
+    width: 130px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+/* banner section */
+
+.banner-section{
+    background: url(./banner-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.banner-content{
+    width: 700px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 150px 0px;
+    color: #F9F9F9;
+}
+.banner-content h1{
+    font-weight: 600;
+    font-size: 60px;
+}
+.banner-content span{
+    width: 440px;
+    display: block;
+    margin: 20px auto;
+    border-bottom: 2px solid #15A4FA;
+}
+
+.banner-content .btn-custom{
+    background: transparent;
+    margin: 40px 0px;
+    padding: 12px 25px;
+}
+.banner-content .btn-custom a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-color: #15A4FA !important;
+}
+.banner-content .ico{
+    position: relative;
+}
+.banner-content .ico i{
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 340px;
+}
+
+/* about section css */
+
+.about-section{
+    padding: 40px 0px;
+    background-color: #f6f9f9;
+}
+.about-content{
+    text-align: center;
+    padding: 10px;
+}
+.about-content h1{
+    color: #2d3950;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.about-content p{
+    color: #999999;
+    line-height: 30px;
+    font-size: 20.5px;
+}
+
+/* service section */
+
+.service-section{
+    background-color: #ffffff;
+    padding: 50px 0px;
+}
+.custom-div{
+    padding: 10px;
+    text-align: center;
+}
+.custom-div i{
+    background: #48baff;
+    width: 100px;
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin: 30px 0px;
+}
+.custom-div h3{
+    color: #2d3950;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.custom-div p{
+    color: #adadad;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+/* portfolio section */
+
+.portfolio-section{
+    background-color: #f9f9f9;
+    padding: 40px 0px;
+}
+.portfolio-section h1{
+    text-align: center;
+    color: #2d3950;
+    font-size: 41px;
+    font-weight: 500;
+    margin: 10px 0px 15px;
+}
+.portfolio-section h3{
+    text-align: center;
+    color: #909090;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 13px 0px 82px;
+}
+
+.custom-div-two{
+    
+position: relative;
+}
+
+.layer{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    background: #20a1f08c;
+    width: 0;
+    height: 0;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.custom-div-two:hover .layer{
+    width: 92.5%;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.icons-cus{
+    
+position: absolute;
+    
+top: 95px;
+    
+left: 110px;
+}
+
+.layer i{width: 50px;height: 50px; border: 1px solid;line-height: 50px;text-align: center;color: white;transition: 0.5s;cursor: pointer;margin-right: 10px;}
+
+.custom-div-two img{
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    /* position: relative; */
+}
+
+/* form section */
+
+.form-section{
+    background: linear-gradient(#31394c9c, rgba(44, 55, 76, 0.623), #2c364b, #354054), url(./stay-with-us-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 50px 0px;
+    text-align: center;
+}
+.stay-contact-form{
+    width: 500px;
+    margin: 0px auto;
+}
+.stay-contact-form h1{
+    color: white;
+    font-weight: 400;
+    font-size: 41px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.stay-contact-form p{
+    color: #999999;
+    font-size: 15px;
+    margin: 0px 0px 40px;
+}
+form input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #999999;
+}
+
+textarea{width: 100%;border: none;outline: none;padding: 10px;margin-bottom: 15px;border-radius: 5px;resize: none;background: transparent;border: 1px solid #999999;}
+
+.custom-div-three input{
+    width: 20px;
+    display: inline-block;
+    background: transparent;
+    margin-right: 10px;
+}
+
+.custom-div-three p{
+    width: 160px;
+    display: inline-block;
+    font-size: 15px;
+    color: #f9f9f9;
+}
+
+.custom-div-four a{
+    background: transparent;
+    border: 1px solid #15a4fa;
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #f9f9f9;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.margin-class{
+    margin-top: 20px;
+}
+
+/* footer section */
+
+.footer-section{
+    padding: 30px 0px;
+}
+.custom-div-five{
+    margin-top: 26px;
+}
+.custom-div-five p{
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+}
+.custom-div-six{
+    margin-top: 16px;
+}
+.custom-div-six ul{
+    list-style: none;
+    text-align: center;
+}
+.custom-div-six ul li {
+    display: inline-block;
+}
+.custom-div-six ul li a{
+    display: inline-block;
+}
+.custom-div-six ul li a i{
+    width: 50px;
+    background-color: #15a4fa;
+    padding: 15px;
+    color: #f9f9f9;
+}
+
+/* responsive with media */
+
+/* mobile device */
+
+@media (max-width: 500px) {
+
+    .menu-custom{
+        width: 100%;
+    }
+
+    .menu-custom nav ul li a{
+        width: 80px;
+    }
+
+    .banner-content{
+        width: 500px;
+        margin: 0px auto;
+    }
+
+    .banner-section{
+        background: url(./banner-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    .banner-content h1{
+        font-weight: 600;
+        font-size: 60px;
+    }
+
+    .banner-content span{
+        width: 300px;
+        display: block;
+        margin: 20px auto;
+        border-bottom: 2px solid #15A4FA;
+    }
+
+
+    .banner-content .ico i{
+        font-size: 20px;
+        position: absolute;
+        top: 90px;
+        left: 240px;
+    }
+
+
+    form input{
+        width: 400px;
+    }
+    
+    textarea{
+        width: 400px;
+    
+    }
+
+    .custom-div-two:hover .layer{
+        width: 94%;
+        height: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .icons-cus{
+        
+    position: absolute;
+    top: 130px;
+    left: 164px;
+    }
+
+
+}
+
+/* small device */
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .menu-custom nav ul li a{
+        width: 90px;
+    }
+
+}
+
+/* tab and notebook */
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .menu-custom nav ul li a{
+        width: 90px;
+    }
+
+}
+
+/* desktop */
+
+@media (min-width:992.01px) and (max-width:1200px) {
+
+    .menu-custom nav ul li a{
+        width: 100px;
+    }
+
+}
+
+/* large device */
+
+@media (min-width:1200.01px) {
+
+    .menu-custom nav ul li a{
+        width: 100px;
+    }
+
+    
+
+}
